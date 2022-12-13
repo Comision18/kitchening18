@@ -1,0 +1,44 @@
+.home{
+
+}
+.home__main{
+   
+}
+
+.home__main__section--banner{
+    display: none;
+}
+
+.home__main__section--productos{
+
+}
+
+.home__main__section__article{
+
+}
+
+.home__main__section__article--imagen{
+    position: relative;
+}
+
+.home__main__section__article--imagen-product{
+    width: 100%;
+}
+
+.home__main__section__article--imagen-sticker{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.home__main__section__article--imagen-zoom {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 10px 0;
+}

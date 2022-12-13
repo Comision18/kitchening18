@@ -1,0 +1,32 @@
+/* mobile first */
+.header{
+    margin-bottom: 30px;
+}
+.header__logo{
+    border-radius: 50%;
+    border: 1px solid var(--colorGris);
+    width: 180px;
+    margin: 15px auto 30px;
+    display: block;
+}
+
+.header__hamburger{
+    border: none;
+    background-color: var(--colorGris);
+    margin: 0 auto 30px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    color: white;
+
+}
+
+.header__nav--menu li{
+    width: 100%;
+    background-color: var(--colorGris);
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    text-align: center;
+    padding: 10px 0;
+}
