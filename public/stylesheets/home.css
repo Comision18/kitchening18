@@ -1,6 +1,7 @@
 .home{
 
 }
+
 .home__main{
    
 }
@@ -41,4 +42,14 @@
     margin: 0 auto;
     text-transform: uppercase;
     padding: 10px 0;
+}
+.home__main__section__article--contenido h4{
+    margin: 20px 0;
+}
+
+.home__main__section__article--contenido a{
+    display: inline-block;
+    margin: 20px 0;
+    background-color: var(--colorGris);
+    padding: 8px;
 }
