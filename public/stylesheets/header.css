@@ -19,7 +19,6 @@
     height: 40px;
     font-size: 28px;
     color: white;
-
 }
 
 .header__nav--menu li{
@@ -29,4 +28,22 @@
     margin-bottom: 1px;
     text-align: center;
     padding: 10px 0;
+}
+
+/* tablet (768px) */
+@media (min-width: 426px) {
+    .header__hamburger{
+        display: none;
+    }
+
+    .header__nav--menu li{
+        width: 15%;
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-right: 1.25%;
+    }
+    .header__nav--menu li:last-child{
+        margin-right: 0;
+    }
+
 }

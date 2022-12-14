@@ -53,3 +53,24 @@
     background-color: var(--colorGris);
     padding: 8px;
 }
+
+@media (min-width:426px) {
+
+    .home__main__section--banner{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .home__main__section--banner img{
+        width: 100%;
+    }
+
+    .home__main__section__article{
+        width: 48%;
+        display: inline-block;
+        margin-right: 3.2%;
+    }
+
+    .home__main__section__article:nth-child(even){
+        margin-right: 0%;
+    }
+}
