@@ -1,8 +1,30 @@
+.footer__nav--menu {
+    background-color: var(--colorRojo);
+}
+
 .footer__nav--menu li{
     width: 100%;
-    background-color: var(--colorRojo);
-    text-transform: uppercase;
-    margin-bottom: 1px;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
     text-align: center;
     padding: 10px 0;
+}
+
+@media (min-width:1180px) {
+    .footer__nav--menu {
+        text-align: center;
+        height: 180px;
+        padding: 80px 0;
+        border-radius: 20px 20px 0 0;
+    }
+    .footer__nav--menu li{
+        display: inline;
+        padding: 0 10px;
+        border-bottom: none;
+        border-right: 2px solid white;
+    }
+
+    .footer__nav--menu li:last-child{
+        border-right: none;
+    }
 }
